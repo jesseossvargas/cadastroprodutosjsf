@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+.center{
+    align-content: center;
+}
+
+.texto-1-banner{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+}
+
+.texto-2-banner {
+    font-size: 1.1em;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.banner {
+    width: 100%;
+    padding:60px 0;
+    text-align: center;
+    background: #33cccc;
+    color: white;
+}
+
+.btn-bgstroke {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.btn-bgstroke:hover {
+    background-color: white;
+    color: #33cccc;
+}
+
+.formulario {
+    margin-top: 2%;
+    width: 100% !important;
+}
+
+.largura-maxima{
+    width: 100% !important;
+}
+
+.form-label{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.coluna-mensagem-incluido-sucesso{
+    color: darkgreen;
+}
