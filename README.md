@@ -34,7 +34,8 @@
 					  
       Substitua <password> e <username> pela respectiva senha e usuário do seu serviço MySQL Server, substitua <urlbancodados> pela url
         do seu servidor MySQL Server (ex: localhost/3348).
-      Através da IDE adicione uma nova configuração com referência para a pasta do seu Tomcat 9.0.54.
+      Através da IDE adicione uma nova configuração com referência para a pasta do seu Tomcat 9.0.54 e defina a alocação de memória RAM
+        adequada para seu ambiente através dos argumentos da VM (ex: -Xms2048M -Xmx5120M).
       
       
       
