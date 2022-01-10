@@ -9,6 +9,32 @@
       Apache Maven e também da espeficicação J2EE. Desenvolvido com a utilização da plataforma Java 8, atualmente também utiliza:
       JSF 2.2 com BootsFaces 1.5, JavaScript/jQuery, MySQL Community 8.0.27, Apache Tomcat 9.0.54, Lombok 1.18. O padrão de arquitetura
       utilizado é o MVC, através da utilização da implementação da especificação JSF. Também são utilizados os padrões de projeto 
-      Builder, Factory e DAO.
+      Builder, Factory e o padrão de persistência de dados DAO.
+    Importe este Maven Projet para a IDE e utilize o Maven ou o plugin do Maven para baixar as dependencias e instalar a aplicação.
+      Instale o MySQL Communnity 8.0.27.1, crie uma nova conexão de banco de dados SQL no MySQL Server, conecte-se e crie um SCHEMA 
+      com o nome mavenwebapparchetype. Crie a seguinte tabela neste SCHEMA:
+      
+                                CREATE TABLE `produto` (
+                                  `NOME` varchar(255) DEFAULT NULL,
+                                  `QUANTIDADE` int DEFAULT NULL,
+                                  `PRECO` double DEFAULT NULL,
+                                  `DATA_VALIDADE` date DEFAULT NULL,
+                                  `DATA_CADASTRO` date DEFAULT NULL,
+                                  `ID_PRODUTO` int NOT NULL AUTO_INCREMENT,
+                                  PRIMARY KEY (`ID_PRODUTO`)
+                                ) 
+      
+      Instale o Apache Tomcat 9.0.54 no seu computador e adicione a seguinte configuração no arquivo /conf/context.xml do diretório
+      do seu Tomcat: <Resource name="jdbc/mavenwebapparchetype" auth="Container" type="javax.sql.DataSource"
+				maxActive="100" maxIdle="100" maxWait="20000" username="<username>" password="<password>" driverClassName="com.mysql.jdbc.Driver"
+				url="jdbc:mysql:<urlbancodados>"/>. 
+                
+                através da IDE adicione uma nova 
+      configuração com referência para a pasta do seu Tomcat 9.0.54
+      
+      //localhost:3306/mavenwebapparchetype
+      
+      
+    
       
    
