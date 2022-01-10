@@ -36,7 +36,7 @@
        do seu servidor MySQL Server (ex: localhost/3348).
     Através da IDE adicione uma nova configuração com referência para a pasta do seu Tomcat 9.0.54 e defina a alocação de memória RAM
        adequada para seu ambiente através dos argumentos da VM (ex: -Xms2048M -Xmx5120M).
-      
+    Adicione o plugin do Lombok na sua IDE para que ela reconheça os métodos gerados por ele.
       
       
       
