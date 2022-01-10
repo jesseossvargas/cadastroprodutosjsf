@@ -1,5 +1,5 @@
     
-                                                        CADASTRO DE PRODUTOS COM JSF
+                                                   CADASTRO DE PRODUTOS COM JSF
                                         
                                         
     Sistema básico de cadastro e listagem de produtos desenvolvido com a motivação de melhorar o conhecimento e a experiência
