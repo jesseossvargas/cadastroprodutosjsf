@@ -1,7 +1,7 @@
     
                                       CADASTRO DE PRODUTOS COM JSF
 
-    - Sistema com front end e back end que atualmente possui as funcionalidades de cadastrar
+    - Sistema com front-end e back-end que atualmente possui as funcionalidades de cadastrar
 	um produto e listar todos os produtos cadastrados.
     - A fazer: Criar funcionalidade de consultar produto em específico, deletar e alterar.
     - Críticas são bem vindas.
@@ -16,7 +16,7 @@
       MySQL Community 8.0.27, Apache Tomcat 9.0.54, Lombok 1.18. O padrão de arquitetura utilizado é o
       MVC, através da utilização da implementação da especificação JSF. Também são utilizados os 
       padrões de projeto Builder, Factory e o padrão de persistência de dados DAO. Utiliza conexão 
-      JNDI com o banco de dados.
+      JNDI com o banco de dados. Utiliza a abordagem Package By Layer.
     Importe este Maven Projet para a IDE e utilize o Maven ou o plugin do Maven para baixar as 
       dependencias e instalar a aplicação. Instale o MySQL Communnity 8.0.27.1, defina a url e porta
       do seu serviço MySQL Server e inicie o servidor. Crie uma nova conexão de banco de dados para
