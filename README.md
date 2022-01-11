@@ -4,7 +4,6 @@
     - Sistema com front-end e back-end que atualmente possui as funcionalidades de cadastrar
 	um produto e listar todos os produtos cadastrados.
     - A fazer: Criar funcionalidade de consultar produto em específico, deletar e alterar.
-    - Críticas são bem vindas.
                                         
     Sistema básico de cadastro e listagem de produtos desenvolvido com a motivação de melhorar o 
       conhecimento e a experiência nas tecnologias utilizadas e a forma com a qual elas interagem
