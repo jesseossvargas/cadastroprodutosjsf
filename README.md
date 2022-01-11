@@ -2,7 +2,8 @@
                                       CADASTRO DE PRODUTOS COM JSF
 
     - Sistema com front-end e back-end que atualmente possui as funcionalidades de cadastrar
-	um produto e listar todos os produtos cadastrados.
+	dados básicos de um produto qualquer, sem levar consideração questões fiscais e tributárias,
+	e listar todos os produtos cadastrados.
     - A fazer: Criar funcionalidade de consultar produto em específico, deletar e alterar.
                                         
     Sistema básico de cadastro e listagem de produtos desenvolvido com a motivação de melhorar o 
