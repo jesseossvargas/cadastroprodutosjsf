@@ -33,7 +33,7 @@
                                   PRIMARY KEY (`ID_PRODUTO`)
                                 ); 
       
-    Instale o Apache Tomcat 9.0.54 no seu computador e adicione a seguinte configuração no arquivo 
+    Instale o Apache Tomcat 9.0.x no seu computador e adicione a seguinte configuração no arquivo 
       /conf/context.xml do diretório do seu Tomcat: 
       
 		<Resource name="jdbc/mavenwebapparchetype" auth="Container" type="javax.sql.DataSource"
@@ -47,7 +47,7 @@
       e defina a alocação de memória RAM adequada para seu ambiente através dos argumentos da VM 
       (ex: -Xms2048M -Xmx5120M).
     Adicione o plugin do Lombok na sua IDE para que ela reconheça os métodos gerados por ele.
-      
+     	Obs: O contexto da página inicial é /cadastroprodutos (nome do folder do projeto, ex localhost:8080/cadastroprodutos)
       
       
     
